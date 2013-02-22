@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - 0.8
   - 0.6
+script: "mocha --reporter spec --compilers coffee:coffee-script --colors --require should"
 notifications:
   email:
     recipients:
