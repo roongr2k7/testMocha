@@ -6,8 +6,5 @@ script: "mocha --reporter spec --compilers coffee:coffee-script --colors --requi
 notifications:
   email:
     recipients:
-      - pitsanu_s@hotmail.com 
-      - wingyminus@gmail.com 
-      - nicao11@gmail.com 
     on_success: change 
     on_failure: always
