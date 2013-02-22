@@ -17,6 +17,7 @@
     "url": "https://github.com/roongr2k7/testMocha.git"
   },
   "dependencies": {
+    "coffee-script": "1.4.0", 
     "mocha" : "1.8.1",
     "should" : "1.2.2" 
   },
